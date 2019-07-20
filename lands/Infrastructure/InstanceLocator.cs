@@ -1,5 +1,4 @@
-﻿using System;
-namespace lands.Infrastructure
+﻿namespace lands.Infrastructure
 {
     using ViewModels;
 
