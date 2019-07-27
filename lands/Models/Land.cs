@@ -36,7 +36,8 @@
         public int Population { get; set; }
 
         [JsonProperty(PropertyName = "latlng")]
-        public List<object> Latlng { get; set; }
+        //public List<object> Latlng { get; set; }
+        public List<double> Latlng { get; set; }
 
         [JsonProperty(PropertyName = "demonym")]
         public string Demonym { get; set; }
