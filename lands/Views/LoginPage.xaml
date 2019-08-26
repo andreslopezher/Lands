@@ -114,14 +114,23 @@
                     <Image 
                         Source="facebook"
                         WidthRequest="80">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LoginFacebookCommand}"/>
+                        </Image.GestureRecognizers>
                     </Image>
                     <Image 
                         Source="twitter"
                         WidthRequest="80">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LoginTwitterCommand}"/>
+                        </Image.GestureRecognizers>
                     </Image>
                     <Image 
                         Source="instagram"
                         WidthRequest="80">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LoginInstagramCommand}"/>
+                        </Image.GestureRecognizers>
                     </Image>
                 </StackLayout>
             </StackLayout>

@@ -99,7 +99,7 @@
             {
                 await Application.Current.MainPage.DisplayAlert(
                     "Error",
-                    "Yo must enter an email",
+                    "You must enter an email",
                     "Accept");
                 return;
             }

@@ -24,4 +24,7 @@
     <Folder Include="Infrastructure\" />
     <Folder Include="Services\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\LandPage.cs" />
+  </ItemGroup>
 </Project>
